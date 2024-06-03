@@ -1,0 +1,100 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+.right-ans{
+  background-color: rgb(17, 84, 17);
+  opacity: 0.8;
+}
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+#Start{
+  background-color: wheat;
+  height: 100px;
+  width: 200px;
+  text-align: center;
+  position: relative;
+  top: 50px;
+  margin: 25px;
+  display: inline-block;
+
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+h2{
+  position: relative;
+  font-family: 'Press Start 2P', cursive;
+  margin-top: 35px;
+  
+  
+}
+
+.pressedY {
+  box-shadow: 0 0 20px rgb(224, 224, 168);
+  background-color: gold;
+  opacity: 0.7;
+}
+.pressedB {
+  box-shadow: 0 0 20px darkblue;
+  background-color: darkblue;
+  opacity: 0.7;
+}
+.pressedR {
+  box-shadow: 0 0 20px red;
+  background-color: darkred;
+  opacity: 0.7;
+}
+.pressedG {
+  box-shadow: 0 0 20px green;
+  background-color: darkgreen;
+  opacity: 0.7;
+}
+
+.pressedS {
+  box-shadow: 0 0 20px white;
+  background-color: gray;
+  opacity: 0.7;
+}
